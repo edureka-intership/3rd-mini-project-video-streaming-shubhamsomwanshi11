@@ -91,7 +91,7 @@ exports.MoviesId = (req, res) => {
 }
 
 // Show the all movies and shows
-// http://localhost:8011/5
+// http://localhost:8011/
 exports.All = (req, res) => {
     video.find()
         .then(
